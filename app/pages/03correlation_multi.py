@@ -17,7 +17,7 @@ from dash import html
 
 import dash
 
-dash.register_page(__name__)
+dash.register_page(__name__, name="03 - Correlation (multi)")
 
 # get data
 list_symbols = ["a", "b", "c"]
